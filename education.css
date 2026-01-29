@@ -1,0 +1,80 @@
+/* General Body Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #17e298;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Education Section Container */
+.education-section {
+    max-width: 900px;
+    margin: auto;
+    background: linear-gradient(135deg, #de3de6, #f6a5f0);
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Section Heading */
+.education-section h2 {
+    text-align: center;
+    color: #0466c9;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+/* Intro Paragraph */
+.education-section p.intro {
+    text-align: center;
+    color: #0eaccc;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Education Card */
+.education-card {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Card Hover Effect */
+.education-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* College Logo Image */
+.education-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 10px;
+    margin-right: 25px;
+}
+
+/* Education Details Text */
+.education-details h3 {
+    margin: 0 0 8px 0;
+    color: #184ec4;
+    font-size: 1.2rem;
+}
+
+.education-details p {
+    margin: 4px 0;
+    color: #9c0d99;
+    font-size: 1rem;
+}
+
+/* Highlighted Text for Current Study or Percentage */
+.education-details span {
+    font-weight: bold;
+    color: #17ae90;
+}
